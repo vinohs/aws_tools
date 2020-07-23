@@ -62,8 +62,8 @@ class S3ObjectEncrypter
     response_conttoken = nil
     i = 0
     begin
-      resp = @aws_client.list_objects_v2(bucket: @bucket_name, response_conttoken: response_conttoken, max_keys: @object_processingbatch_size)
-      response_conttoken = resp.next_response_conttoken
+      resp = @aws_client.list_objects_v2(bucket: @bucket_name, continuation_token: response_conttoken, max_keys: @object_processingbatch_size)
+      response_conttoken = resp.next_continuation_token
       objects.push(*resp.contents)
       puts "Retrieved objects #{i*@object_processingbatch_size} - #{(i+1)*@object_processingbatch_size} from #{@bucket_name}" if @verbose_output
       i+=1

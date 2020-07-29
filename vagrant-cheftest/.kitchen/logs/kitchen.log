@@ -1,5 +1,0 @@
-I, [2020-07-28T18:02:38.225404 #94579]  INFO -- Kitchen: -----> Starting Test Kitchen (v2.5.3)
-E, [2020-07-28T18:02:39.096715 #94579] ERROR -- Kitchen: 
-No instances for regex `--verbose', try running `kitchen list'
-
-

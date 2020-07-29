@@ -1,0 +1,166 @@
+I, [2020-07-28T16:32:38.545789 #80068]  INFO -- default-ubuntu-1604: -----> Creating <default-ubuntu-1604>...
+I, [2020-07-28T16:32:40.957207 #80068]  INFO -- default-ubuntu-1604: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2020-07-28T16:32:41.295136 #80068]  INFO -- default-ubuntu-1604: ==> default: Importing base box 'bento/ubuntu-16.04'...
+I, [2020-07-28T16:32:48.936689 #80068]  INFO -- default-ubuntu-1604: [KProgress: 10%[KProgress: 40%[KProgress: 60%[KProgress: 80%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2020-07-28T16:32:49.136212 #80068]  INFO -- default-ubuntu-1604: ==> default: Checking if box 'bento/ubuntu-16.04' version '202002.04.0' is up to date...
+I, [2020-07-28T16:32:49.794348 #80068]  INFO -- default-ubuntu-1604: ==> default: Setting the name of the VM: kitchen-cookbooks-default-ubuntu-1604-ac189eb9-1441-41c9-a9a5-5f0574d439cf
+I, [2020-07-28T16:32:50.451661 #80068]  INFO -- default-ubuntu-1604: ==> default: Fixed port collision for 22 => 2222. Now on port 2203.
+I, [2020-07-28T16:32:50.864552 #80068]  INFO -- default-ubuntu-1604: ==> default: Clearing any previously set network interfaces...
+I, [2020-07-28T16:32:50.928165 #80068]  INFO -- default-ubuntu-1604: ==> default: Preparing network interfaces based on configuration...
+I, [2020-07-28T16:32:50.928564 #80068]  INFO -- default-ubuntu-1604:     default: Adapter 1: nat
+I, [2020-07-28T16:32:51.007037 #80068]  INFO -- default-ubuntu-1604: ==> default: Forwarding ports...
+I, [2020-07-28T16:32:51.081561 #80068]  INFO -- default-ubuntu-1604:     default: 22 (guest) => 2203 (host) (adapter 1)
+I, [2020-07-28T16:32:51.283557 #80068]  INFO -- default-ubuntu-1604: ==> default: Running 'pre-boot' VM customizations...
+I, [2020-07-28T16:32:51.332632 #80068]  INFO -- default-ubuntu-1604: ==> default: Booting VM...
+I, [2020-07-28T16:32:51.680385 #80068]  INFO -- default-ubuntu-1604: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2020-07-28T16:32:52.027571 #80068]  INFO -- default-ubuntu-1604:     default: SSH address: 127.0.0.1:2203
+I, [2020-07-28T16:32:52.028322 #80068]  INFO -- default-ubuntu-1604:     default: SSH username: vagrant
+I, [2020-07-28T16:32:52.028400 #80068]  INFO -- default-ubuntu-1604:     default: SSH auth method: private key
+I, [2020-07-28T16:33:07.968732 #80068]  INFO -- default-ubuntu-1604:     default: 
+I, [2020-07-28T16:33:07.968818 #80068]  INFO -- default-ubuntu-1604:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2020-07-28T16:33:07.968856 #80068]  INFO -- default-ubuntu-1604:     default: this with a newly generated keypair for better security.
+I, [2020-07-28T16:33:08.726623 #80068]  INFO -- default-ubuntu-1604:     default: 
+I, [2020-07-28T16:33:08.726719 #80068]  INFO -- default-ubuntu-1604:     default: Inserting generated public key within guest...
+I, [2020-07-28T16:33:08.857773 #80068]  INFO -- default-ubuntu-1604:     default: Removing insecure key from the guest if it's present...
+I, [2020-07-28T16:33:09.025692 #80068]  INFO -- default-ubuntu-1604:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2020-07-28T16:33:09.735405 #80068]  INFO -- default-ubuntu-1604: ==> default: Machine booted and ready!
+I, [2020-07-28T16:33:09.758675 #80068]  INFO -- default-ubuntu-1604: ==> default: Checking for guest additions in VM...
+I, [2020-07-28T16:33:09.924200 #80068]  INFO -- default-ubuntu-1604: ==> default: Setting hostname...
+I, [2020-07-28T16:33:15.013053 #80068]  INFO -- default-ubuntu-1604: ==> default: Mounting shared folders...
+I, [2020-07-28T16:33:15.014041 #80068]  INFO -- default-ubuntu-1604:     default: /tmp/omnibus/cache => /Users/vinodhini.ravikumar/.kitchen/cache
+I, [2020-07-28T16:33:15.519295 #80068]  INFO -- default-ubuntu-1604: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2020-07-28T16:33:18.769537 #80068]  INFO -- default-ubuntu-1604: [SSH] Established
+I, [2020-07-28T16:33:18.770156 #80068]  INFO -- default-ubuntu-1604: Vagrant instance <default-ubuntu-1604> created.
+I, [2020-07-28T16:33:18.774033 #80068]  INFO -- default-ubuntu-1604: Finished creating <default-ubuntu-1604> (0m40.22s).
+I, [2020-07-28T16:33:18.774623 #80068]  INFO -- default-ubuntu-1604: -----> Converging <default-ubuntu-1604>...
+I, [2020-07-28T16:33:18.780017 #80068]  INFO -- default-ubuntu-1604: Preparing files for transfer
+I, [2020-07-28T16:33:18.780235 #80068]  INFO -- default-ubuntu-1604: Preparing dna.json
+I, [2020-07-28T16:33:18.782533 #80068]  INFO -- default-ubuntu-1604: Policyfile, Berksfile, cookbooks/, or metadata.rb not found so Chef Infra Client will run, but do nothing. Is this intended?
+I, [2020-07-28T16:33:18.783365 #80068]  INFO -- default-ubuntu-1604: Removing non-cookbook files before transfer
+I, [2020-07-28T16:33:18.786088 #80068]  INFO -- default-ubuntu-1604: Preparing solo.rb
+I, [2020-07-28T16:33:18.802936 #80068]  INFO -- default-ubuntu-1604: -----> Installing Chef install only if missing package
+I, [2020-07-28T16:33:18.803553 #80068]  INFO -- default-ubuntu-1604: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
+I, [2020-07-28T16:33:18.803777 #80068]  INFO -- default-ubuntu-1604: Trying wget...
+I, [2020-07-28T16:33:18.971092 #80068]  INFO -- default-ubuntu-1604: Download complete.
+I, [2020-07-28T16:33:18.985171 #80068]  INFO -- default-ubuntu-1604: ubuntu 16.04 x86_64
+I, [2020-07-28T16:33:18.986132 #80068]  INFO -- default-ubuntu-1604: Getting information for chef stable  for ubuntu...
+I, [2020-07-28T16:33:18.986419 #80068]  INFO -- default-ubuntu-1604: downloading https://omnitruck.chef.io/stable/chef/metadata?v=&p=ubuntu&pv=16.04&m=x86_64
+I, [2020-07-28T16:33:18.986588 #80068]  INFO -- default-ubuntu-1604:   to file /tmp/install.sh.1872/metadata.txt
+I, [2020-07-28T16:33:18.986803 #80068]  INFO -- default-ubuntu-1604: trying wget...
+I, [2020-07-28T16:33:19.133611 #80068]  INFO -- default-ubuntu-1604: sha1	e9f9b0a1f8bdd041f8c131f13f8b2593074463a8
+I, [2020-07-28T16:33:19.134762 #80068]  INFO -- default-ubuntu-1604: sha256	6c482937388c0789b6bf06ef7178123b529966d29bb62e8da6d4fd318e20864e
+I, [2020-07-28T16:33:19.135013 #80068]  INFO -- default-ubuntu-1604: url	https://packages.chef.io/files/stable/chef/16.3.38/ubuntu/16.04/chef_16.3.38-1_amd64.deb
+I, [2020-07-28T16:33:19.135411 #80068]  INFO -- default-ubuntu-1604: version	16.3.38
+I, [2020-07-28T16:33:19.135955 #80068]  INFO -- default-ubuntu-1604: downloaded metadata file looks valid...
+I, [2020-07-28T16:33:19.144726 #80068]  INFO -- default-ubuntu-1604: /tmp/omnibus/cache/chef_16.3.38-1_amd64.deb exists
+I, [2020-07-28T16:33:19.145106 #80068]  INFO -- default-ubuntu-1604: Comparing checksum with sha256sum...
+I, [2020-07-28T16:33:19.288968 #80068]  INFO -- default-ubuntu-1604: 
+I, [2020-07-28T16:33:19.289130 #80068]  INFO -- default-ubuntu-1604: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2020-07-28T16:33:19.289174 #80068]  INFO -- default-ubuntu-1604: 
+I, [2020-07-28T16:33:19.289214 #80068]  INFO -- default-ubuntu-1604: You are installing a package without a version pin.  If you are installing
+I, [2020-07-28T16:33:19.289244 #80068]  INFO -- default-ubuntu-1604: on production servers via an automated process this is DANGEROUS and you will
+I, [2020-07-28T16:33:19.289272 #80068]  INFO -- default-ubuntu-1604: be upgraded without warning on new releases, even to new major releases.
+I, [2020-07-28T16:33:19.289313 #80068]  INFO -- default-ubuntu-1604: Letting the version float is only appropriate in desktop, test, development or
+I, [2020-07-28T16:33:19.289345 #80068]  INFO -- default-ubuntu-1604: CI/CD environments.
+I, [2020-07-28T16:33:19.289370 #80068]  INFO -- default-ubuntu-1604: 
+I, [2020-07-28T16:33:19.289750 #80068]  INFO -- default-ubuntu-1604: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2020-07-28T16:33:19.289788 #80068]  INFO -- default-ubuntu-1604: 
+I, [2020-07-28T16:33:19.289903 #80068]  INFO -- default-ubuntu-1604: Installing chef 
+I, [2020-07-28T16:33:19.290034 #80068]  INFO -- default-ubuntu-1604: installing with dpkg...
+I, [2020-07-28T16:33:19.326424 #80068]  INFO -- default-ubuntu-1604: Selecting previously unselected package chef.
+I, [2020-07-28T16:33:19.507488 #80068]  INFO -- default-ubuntu-1604: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 38555 files and directories currently installed.)
+I, [2020-07-28T16:33:19.508696 #80068]  INFO -- default-ubuntu-1604: Preparing to unpack .../cache/chef_16.3.38-1_amd64.deb ...
+I, [2020-07-28T16:33:19.512318 #80068]  INFO -- default-ubuntu-1604: Unpacking chef (16.3.38-1) ...
+I, [2020-07-28T16:33:23.307467 #80068]  INFO -- default-ubuntu-1604: Setting up chef (16.3.38-1) ...
+I, [2020-07-28T16:33:23.350470 #80068]  INFO -- default-ubuntu-1604: Thank you for installing Chef Infra Client! For help getting started visit https://learn.chef.io
+I, [2020-07-28T16:33:23.374912 #80068]  INFO -- default-ubuntu-1604: Transferring files to <default-ubuntu-1604>
+I, [2020-07-28T16:33:24.556936 #80068]  INFO -- default-ubuntu-1604: +---------------------------------------------+
+I, [2020-07-28T16:33:24.557180 #80068]  INFO -- default-ubuntu-1604: [32m✔[0m 2 product licenses accepted.
+I, [2020-07-28T16:33:24.557383 #80068]  INFO -- default-ubuntu-1604: +---------------------------------------------+
+I, [2020-07-28T16:33:24.656251 #80068]  INFO -- default-ubuntu-1604: Starting Chef Infra Client, version 16.3.38
+I, [2020-07-28T16:33:25.911238 #80068]  INFO -- default-ubuntu-1604: Creating a new client identity for default-ubuntu-1604 using the validator key.
+I, [2020-07-28T16:33:25.951635 #80068]  INFO -- default-ubuntu-1604: resolving cookbooks for run list: ["mynginx"]
+I, [2020-07-28T16:33:25.953419 #80068]  INFO -- default-ubuntu-1604: 
+I, [2020-07-28T16:33:25.953717 #80068]  INFO -- default-ubuntu-1604: ================================================================================
+I, [2020-07-28T16:33:25.953935 #80068]  INFO -- default-ubuntu-1604: Error Resolving Cookbooks for Run List:
+I, [2020-07-28T16:33:25.954812 #80068]  INFO -- default-ubuntu-1604: ================================================================================
+I, [2020-07-28T16:33:25.955038 #80068]  INFO -- default-ubuntu-1604: 
+I, [2020-07-28T16:33:25.955232 #80068]  INFO -- default-ubuntu-1604: Missing Cookbooks:
+I, [2020-07-28T16:33:25.955408 #80068]  INFO -- default-ubuntu-1604: ------------------
+I, [2020-07-28T16:33:25.955581 #80068]  INFO -- default-ubuntu-1604: No such cookbook: mynginx
+I, [2020-07-28T16:33:25.956329 #80068]  INFO -- default-ubuntu-1604: 
+I, [2020-07-28T16:33:25.956718 #80068]  INFO -- default-ubuntu-1604: Expanded Run List:
+I, [2020-07-28T16:33:25.956906 #80068]  INFO -- default-ubuntu-1604: ------------------
+I, [2020-07-28T16:33:25.957056 #80068]  INFO -- default-ubuntu-1604: * mynginx
+I, [2020-07-28T16:33:25.957199 #80068]  INFO -- default-ubuntu-1604: 
+I, [2020-07-28T16:33:25.957355 #80068]  INFO -- default-ubuntu-1604: System Info:
+I, [2020-07-28T16:33:25.957504 #80068]  INFO -- default-ubuntu-1604: ------------
+I, [2020-07-28T16:33:25.957689 #80068]  INFO -- default-ubuntu-1604: chef_version=16.3.38
+I, [2020-07-28T16:33:25.957867 #80068]  INFO -- default-ubuntu-1604: platform=ubuntu
+I, [2020-07-28T16:33:25.958018 #80068]  INFO -- default-ubuntu-1604: platform_version=16.04
+I, [2020-07-28T16:33:25.958197 #80068]  INFO -- default-ubuntu-1604: ruby=ruby 2.7.1p83 (2020-03-31 revision a0c7c23c9c) [x86_64-linux]
+I, [2020-07-28T16:33:25.958347 #80068]  INFO -- default-ubuntu-1604: program_name=/opt/chef/bin/chef-solo
+I, [2020-07-28T16:33:25.958531 #80068]  INFO -- default-ubuntu-1604: executable=/opt/chef/bin/chef-solo
+I, [2020-07-28T16:33:25.958673 #80068]  INFO -- default-ubuntu-1604: 
+I, [2020-07-28T16:33:25.958821 #80068]  INFO -- default-ubuntu-1604: 
+I, [2020-07-28T16:33:25.958974 #80068]  INFO -- default-ubuntu-1604: Running handlers:
+I, [2020-07-28T16:33:25.959141 #80068]  INFO -- default-ubuntu-1604: [2020-07-28T23:33:24+00:00] ERROR: Running exception handlers
+I, [2020-07-28T16:33:25.959301 #80068]  INFO -- default-ubuntu-1604: Running handlers complete
+I, [2020-07-28T16:33:25.959512 #80068]  INFO -- default-ubuntu-1604: [2020-07-28T23:33:24+00:00] ERROR: Exception handlers complete
+I, [2020-07-28T16:33:25.959660 #80068]  INFO -- default-ubuntu-1604: Chef Infra Client failed. 0 resources updated in 01 seconds
+I, [2020-07-28T16:33:25.959833 #80068]  INFO -- default-ubuntu-1604: [2020-07-28T23:33:24+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2020-07-28T16:33:25.960023 #80068]  INFO -- default-ubuntu-1604: [2020-07-28T23:33:24+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+I, [2020-07-28T16:33:25.960194 #80068]  INFO -- default-ubuntu-1604: [2020-07-28T23:33:24+00:00] FATAL: Net::HTTPServerException: 412 "Precondition Failed"
+E, [2020-07-28T16:33:25.976625 #80068] ERROR -- default-ubuntu-1604: Converge failed on instance <default-ubuntu-1604>.
+E, [2020-07-28T16:33:25.976800 #80068] ERROR -- default-ubuntu-1604: ------Exception-------
+E, [2020-07-28T16:33:25.976842 #80068] ERROR -- default-ubuntu-1604: Class: Kitchen::ActionFailed
+E, [2020-07-28T16:33:25.976873 #80068] ERROR -- default-ubuntu-1604: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json 
+']
+E, [2020-07-28T16:33:25.976902 #80068] ERROR -- default-ubuntu-1604: ----------------------
+E, [2020-07-28T16:33:25.976926 #80068] ERROR -- default-ubuntu-1604: ------Backtrace-------
+E, [2020-07-28T16:33:25.976949 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/provisioner/base.rb:95:in `rescue in call'
+E, [2020-07-28T16:33:25.976978 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/provisioner/base.rb:94:in `call'
+E, [2020-07-28T16:33:25.977002 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/instance.rb:409:in `block in converge_action'
+E, [2020-07-28T16:33:25.977028 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/instance.rb:552:in `synchronize_or_call'
+E, [2020-07-28T16:33:25.977054 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/instance.rb:514:in `block in action'
+E, [2020-07-28T16:33:25.977078 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/benchmark.rb:293:in `measure'
+E, [2020-07-28T16:33:25.977102 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/instance.rb:513:in `action'
+E, [2020-07-28T16:33:25.977128 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/instance.rb:404:in `converge_action'
+E, [2020-07-28T16:33:25.977155 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/instance.rb:382:in `block (2 levels) in transition_to'
+E, [2020-07-28T16:33:25.977182 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/lifecycle_hooks.rb:45:in `run_with_hooks'
+E, [2020-07-28T16:33:25.977209 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/instance.rb:381:in `block in transition_to'
+E, [2020-07-28T16:33:25.977251 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/instance.rb:380:in `each'
+E, [2020-07-28T16:33:25.977280 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/instance.rb:380:in `transition_to'
+E, [2020-07-28T16:33:25.977310 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/instance.rb:140:in `converge'
+E, [2020-07-28T16:33:25.977337 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/command.rb:198:in `public_send'
+E, [2020-07-28T16:33:25.977364 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/command.rb:198:in `run_action_in_thread'
+E, [2020-07-28T16:33:25.977391 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2020-07-28T16:33:25.977418 #80068] ERROR -- default-ubuntu-1604: ----End Backtrace-----
+E, [2020-07-28T16:33:25.977444 #80068] ERROR -- default-ubuntu-1604: ---Nested Exception---
+E, [2020-07-28T16:33:25.977470 #80068] ERROR -- default-ubuntu-1604: Class: Kitchen::Transport::SshFailed
+E, [2020-07-28T16:33:25.977496 #80068] ERROR -- default-ubuntu-1604: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json 
+']
+E, [2020-07-28T16:33:25.977523 #80068] ERROR -- default-ubuntu-1604: ----------------------
+E, [2020-07-28T16:33:25.977550 #80068] ERROR -- default-ubuntu-1604: ------Backtrace-------
+E, [2020-07-28T16:33:25.977576 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/provisioner/base.rb:95:in `rescue in call'
+E, [2020-07-28T16:33:25.977606 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/provisioner/base.rb:94:in `call'
+E, [2020-07-28T16:33:25.977633 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/instance.rb:409:in `block in converge_action'
+E, [2020-07-28T16:33:25.977660 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/instance.rb:552:in `synchronize_or_call'
+E, [2020-07-28T16:33:25.977686 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/instance.rb:514:in `block in action'
+E, [2020-07-28T16:33:25.977713 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/benchmark.rb:293:in `measure'
+E, [2020-07-28T16:33:25.977739 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/instance.rb:513:in `action'
+E, [2020-07-28T16:33:25.977766 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/instance.rb:404:in `converge_action'
+E, [2020-07-28T16:33:25.977793 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/instance.rb:382:in `block (2 levels) in transition_to'
+E, [2020-07-28T16:33:25.977819 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/lifecycle_hooks.rb:45:in `run_with_hooks'
+E, [2020-07-28T16:33:25.977846 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/instance.rb:381:in `block in transition_to'
+E, [2020-07-28T16:33:25.977873 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/instance.rb:380:in `each'
+E, [2020-07-28T16:33:25.977915 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/instance.rb:380:in `transition_to'
+E, [2020-07-28T16:33:25.977943 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/instance.rb:140:in `converge'
+E, [2020-07-28T16:33:25.977970 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/command.rb:198:in `public_send'
+E, [2020-07-28T16:33:25.977997 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/command.rb:198:in `run_action_in_thread'
+E, [2020-07-28T16:33:25.978024 #80068] ERROR -- default-ubuntu-1604: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2020-07-28T16:33:25.978051 #80068] ERROR -- default-ubuntu-1604: ----End Backtrace-----

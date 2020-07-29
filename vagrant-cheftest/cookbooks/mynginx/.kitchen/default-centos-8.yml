@@ -1,0 +1,7 @@
+---
+hostname: 127.0.0.1
+port: '2201'
+username: vagrant
+ssh_key: "/Users/vinodhini.ravikumar/code/vagrant-cheftest/cookbooks/mynginx/.kitchen/kitchen-vagrant/default-centos-8/.vagrant/machines/default/virtualbox/private_key"
+last_action: converge
+last_error:

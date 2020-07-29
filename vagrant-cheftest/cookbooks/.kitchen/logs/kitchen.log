@@ -1,0 +1,31 @@
+I, [2020-07-28T17:58:42.339592 #94035]  INFO -- Kitchen: -----> Starting Test Kitchen (v2.5.3)
+E, [2020-07-28T17:58:42.340043 #94035] ERROR -- Kitchen: ------Exception-------
+E, [2020-07-28T17:58:42.340095 #94035] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2020-07-28T17:58:42.340127 #94035] ERROR -- Kitchen: Message: Kitchen YAML file /Users/vinodhini.ravikumar/code/vagrant-cheftest/cookbooks/kitchen.yml does not exist.
+E, [2020-07-28T17:58:42.340153 #94035] ERROR -- Kitchen: ----------------------
+E, [2020-07-28T17:58:42.340180 #94035] ERROR -- Kitchen: ------Backtrace-------
+E, [2020-07-28T17:58:42.340221 #94035] ERROR -- Kitchen: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/loader/yaml.rb:65:in `read'
+E, [2020-07-28T17:58:42.340243 #94035] ERROR -- Kitchen: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/config.rb:154:in `data'
+E, [2020-07-28T17:58:42.340277 #94035] ERROR -- Kitchen: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/config.rb:132:in `suites'
+E, [2020-07-28T17:58:42.340306 #94035] ERROR -- Kitchen: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/config.rb:184:in `filter_instances'
+E, [2020-07-28T17:58:42.340327 #94035] ERROR -- Kitchen: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/config.rb:143:in `build_instances'
+E, [2020-07-28T17:58:42.340354 #94035] ERROR -- Kitchen: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/config.rb:117:in `instances'
+E, [2020-07-28T17:58:42.340384 #94035] ERROR -- Kitchen: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/command.rb:112:in `filtered_instances'
+E, [2020-07-28T17:58:42.340435 #94035] ERROR -- Kitchen: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/command.rb:142:in `parse_subcommand'
+E, [2020-07-28T17:58:42.340472 #94035] ERROR -- Kitchen: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/command/action.rb:35:in `block in call'
+E, [2020-07-28T17:58:42.340545 #94035] ERROR -- Kitchen: /Users/vinodhini.ravikumar/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/benchmark.rb:293:in `measure'
+E, [2020-07-28T17:58:42.340586 #94035] ERROR -- Kitchen: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/command/action.rb:34:in `call'
+E, [2020-07-28T17:58:42.340636 #94035] ERROR -- Kitchen: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/cli.rb:52:in `perform'
+E, [2020-07-28T17:58:42.340728 #94035] ERROR -- Kitchen: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/cli.rb:198:in `block (2 levels) in <class:CLI>'
+E, [2020-07-28T17:58:42.340814 #94035] ERROR -- Kitchen: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/thor-1.0.1/lib/thor/command.rb:27:in `run'
+E, [2020-07-28T17:58:42.340871 #94035] ERROR -- Kitchen: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/thor-1.0.1/lib/thor/invocation.rb:127:in `invoke_command'
+E, [2020-07-28T17:58:42.340910 #94035] ERROR -- Kitchen: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/thor-1.0.1/lib/thor.rb:392:in `dispatch'
+E, [2020-07-28T17:58:42.340959 #94035] ERROR -- Kitchen: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/thor-1.0.1/lib/thor/base.rb:485:in `start'
+E, [2020-07-28T17:58:42.341028 #94035] ERROR -- Kitchen: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/bin/kitchen:13:in `block in <top (required)>'
+E, [2020-07-28T17:58:42.341127 #94035] ERROR -- Kitchen: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/lib/kitchen/errors.rb:171:in `with_friendly_errors'
+E, [2020-07-28T17:58:42.341188 #94035] ERROR -- Kitchen: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/gems/test-kitchen-2.5.3/bin/kitchen:13:in `<top (required)>'
+E, [2020-07-28T17:58:42.341258 #94035] ERROR -- Kitchen: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/bin/kitchen:23:in `load'
+E, [2020-07-28T17:58:42.341345 #94035] ERROR -- Kitchen: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/bin/kitchen:23:in `<main>'
+E, [2020-07-28T17:58:42.341388 #94035] ERROR -- Kitchen: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/bin/ruby_executable_hooks:24:in `eval'
+E, [2020-07-28T17:58:42.341416 #94035] ERROR -- Kitchen: /Users/vinodhini.ravikumar/.rvm/gems/ruby-2.7.0/bin/ruby_executable_hooks:24:in `<main>'
+E, [2020-07-28T17:58:42.341446 #94035] ERROR -- Kitchen: ----End Backtrace-----

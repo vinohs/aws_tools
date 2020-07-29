@@ -1,0 +1,7 @@
+---
+hostname: 127.0.0.1
+port: '2204'
+username: vagrant
+ssh_key: "/Users/vinodhini.ravikumar/code/vagrant-cheftest/.kitchen/kitchen-vagrant/default-ubuntu-1604/.vagrant/machines/default/virtualbox/private_key"
+last_action: verify
+last_error:
